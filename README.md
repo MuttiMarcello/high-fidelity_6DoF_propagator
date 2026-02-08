@@ -27,15 +27,16 @@ This project is a work in progress.
 At the current stage:
 
 - Core attitude and orbital dynamics are implemented
-- J2 and third-body Moon perturbations are implemented
+- J2, drag and third-body Moon perturbations are implemented
 - Gravity gradient and magnetic disturbance torques are implemented
 
 Planned next steps include:
 
 - Validation of perturbative effects against reference solutions and external tools
-- Implementation of drag and SRP orbital disturbance
+- Implementation of SRP orbital disturbance
 - Implementation of drag and SRP attitude disturbance torques
-- Change approach to Legendre polynomials to avoid recursivity
+- Implementation of alternative ECI-ECEF rotation matrix computation to improve performance
+- Switch from DCM to quaternion kinematics representation
 
 ## Preliminary Outputs
 

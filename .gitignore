@@ -1,0 +1,6 @@
+# SPICE kernels (do not version)
+*.bsp
+*.tls
+*.tpc
+*.bc
+*.tf
